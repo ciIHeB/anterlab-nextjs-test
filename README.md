@@ -25,3 +25,4 @@ This project covers 10 practical tasks using Next.js 13+ with the App Router:
 
 ```bash
 npm install
+npm run dev
