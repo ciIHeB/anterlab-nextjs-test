@@ -13,7 +13,7 @@ This project covers 10 practical tasks using Next.js 13+ with the App Router:
 7. Navigation bar with `next/link` and shared layout
 8. Cart system using React Context API
 9. Real-time search filter on a list of items
-10. Protected route `/dashboard` with a simulated login using `localStorage`
+10. Protected route `/dashboard` 
 
 ---
 
