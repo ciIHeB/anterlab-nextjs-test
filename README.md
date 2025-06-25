@@ -1,28 +1,45 @@
-# Practical Next.js – 10 Tasks Completed
+# practical-nextjs-tasks
 
-## What I completed
+## Getting Started
 
-This project covers 10 practical tasks using Next.js 13+ with the App Router:
-
-1. Static Blog Page (3 posts with static props)
-2. Dynamic Routing for blog posts using `[slug]`
-3. Contact form with client-side validation
-4. Client-side fetching from JSONPlaceholder API
-5. Server-side fetching with `getServerSideProps`
-6. API route `/api/contact` accepting POST requests
-7. Navigation bar with `next/link` and shared layout
-8. Cart system using React Context API
-9. Real-time search filter on a list of items
-10. Protected route `/dashboard` 
+1. Clone or download the project.  
+2. Run `npm install`.  
+3. Start the dev server with `npm run dev`.  
+4. Open (http://localhost:3000) in your browser.
 
 ---
 
-## How to run the code
+## Features Completed
 
-1. Clone or download the repository.
+- Static blog page with 3 posts using static props.  
+- Dynamic routing for posts with `[slug]`.  
+- Contact form with client-side validation.  
+- Client-side data fetching from JSONPlaceholder API.  
+- Server-side rendering with `getServerSideProps` or server components.  
+- API route `/api/contact` accepting POST requests.  
+- Navigation bar with `next/link` and shared layout.  
+- Cart system using React Context API.  
+- Real-time search filter on lists.  
+- Protected route `/dashboard` with simple auth logic.
 
-2. Install dependencies:
+---
 
-```bash
-npm install
-npm run dev
+## How to Use
+
+- Visit `/blog` for blog posts and click titles to view each post.  
+- Use `/contact` to try the validated contact form.  
+- Add/remove items in the cart and see state updates live.  
+- Use the search bar on items/products pages for filtering.  
+- Access `/dashboard` to test route protection.  
+- Send POST requests to `/api/contact` via Postman or similar.
+
+---
+
+## Notes
+
+- Requires Node.js 18+.  
+- Cart state resets on page reload.  
+
+---
+
+
