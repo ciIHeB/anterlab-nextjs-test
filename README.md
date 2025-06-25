@@ -1,6 +1,17 @@
 # Next.js Practical Project
 
-## ✅ Features
+## Getting Started
+
+1. Clone or download the project  
+2. Run `npm install` to install dependencies  
+3. Start the development server:  
+   ```bash
+   npm run dev
+   ```
+4. Open your browser at: `http://localhost:3000`
+
+---
+## Features Completed
 
 1. **Static Blog Page** 
 2. **Dynamic Routes** 
@@ -13,10 +24,13 @@
 9. **Search Filter** 
 10. **Protected Route** 
 
-## 🚀 Getting Started
+## h How to Use
+- Home page: blog posts overview  
+- Click on a blog post to view full content (dynamic route)  
+- Go to `/about` and `/contact` via the navbar  
+- Fill and submit the contact form — check the console for logs  
+- Visit `/cart` to test add/remove items using shared cart state  
+- Use search input to filter the item list in real-time  
+- Access `/login` to simulate login → token is stored in `localStorage`  
+- Access `/dashboard` only after "logging in"  
 
-```bash
-git clone <your-repo-url>
-cd anterlab-nextjs-test
-npm install
-npm run dev
