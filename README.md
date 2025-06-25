@@ -18,7 +18,6 @@ This project demonstrates core features of Next.js using the App Router and Java
 ## 🚀 How to Run
 
 ```bash
-git clone <your-repo-url>
-cd anterlab-nextjs-test
+ 
 npm install
 npm run dev
