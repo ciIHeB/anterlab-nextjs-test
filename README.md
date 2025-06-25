@@ -1,41 +1,24 @@
-# practical-nextjs-tasks
+# Practical Next.js – Fullstack Project
 
-## Getting Started
+This project demonstrates core features of Next.js using the App Router and JavaScript.
 
-1. Clone or download the project.  
-2. Run `npm install` to install dependencies.  
-3. Start the development server:  
-   `npm run dev`  
-4. Open `http://localhost:3000` in your browser.
+## ✅ Completed Tasks
 
----
+1. **Static Blog Page** – Built using `getStaticProps`, showing 3 blog posts (title + summary).
+2. **Dynamic Route** – Created dynamic routes using `[slug]/page.js` for individual blog posts.
+3. **Form with Validation** – Contact form with name, email, and message (required field validation).
+4. **Client-side Fetching** – Fetched users from JSONPlaceholder using `useEffect`.
+5. **Server-side Fetching** – Used `getServerSideProps` to load posts on page load.
+6. **API Route** – Custom API at `/api/contact` to accept and log POST messages.
+7. **Navigation with Link** – Navbar navigation between Home, About, and Contact pages.
+8. **Context API** – Implemented simple cart shared across pages using React Context.
+9. **Search Filter** – Real-time item filtering using an input field.
+10. **Protected Route** – Fake login system to restrict access to `/dashboard` using `localStorage`.
 
-## Features Completed
+## 🚀 How to Run
 
-- Static blog page with 3 posts using `getStaticProps`.  
-- Dynamic route for each blog post using `[slug]`.  
-- Contact form with client-side validation.  
-- Client-side data fetching from JSONPlaceholder API.  
-- Server-side rendering with `getServerSideProps`.  
-- API route `/api/contact` to handle POST submissions.  
-- Navigation bar with shared layout across pages.  
-- Cart system using React Context for global state management.  
-- Real-time search filter as user types.  
-- Protected route `/dashboard` simulating authentication.
-
----
-
-## How to Use
-
-- Blog: `/blog` to view all posts, `/blog/[slug]` to view a single post.  
-- Contact form: `/contact` with client-side validation.  
-- Cart system: add/remove items on relevant pages, shared state.  
-- Search filter: filter visible items as you type.  
-- Dashboard: `/dashboard` simulates a protected route.  
-- API: test `/api/contact` with a POST request using Postman:
-  ```json
-  {
-    "name": "John",
-    "email": "john@example.com",
-    "message": "Hello from Postman!"
-  }
+```bash
+git clone <your-repo-url>
+cd anterlab-nextjs-test
+npm install
+npm run dev
