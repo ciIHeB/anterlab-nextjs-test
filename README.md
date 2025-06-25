@@ -1,27 +1,28 @@
-# Practical Next.js – 10 Tasks Completed
+# 🧩 Practical Next.js – 10 Real-World Tasks
 
-## What I completed
-
-This project covers 10 practical tasks using Next.js 13+ with the App Router:
-
-1. Static Blog Page (3 posts with static props)
-2. Dynamic Routing for blog posts using `[slug]`
-3. Contact form with client-side validation
-4. Client-side fetching from JSONPlaceholder API
-5. Server-side fetching with `getServerSideProps`
-6. API route `/api/contact` accepting POST requests
-7. Navigation bar with `next/link` and shared layout
-8. Cart system using React Context API
-9. Real-time search filter on a list of items
-10. Protected route `/dashboard` with a simulated login using `localStorage`
+A modern Next.js 13+ project built with the **App Router**, showcasing 10 practical features often used in real applications. Perfect as a learning resource or a starter template for full-stack projects.
 
 ---
 
-## How to run the code
+## 📦Features Completed
 
-1. Clone or download the repository.
+✅ **Static Generation** – Blog page with 3 posts using `getStaticProps`  
+✅ **Dynamic Routing** – Dynamic blog post pages at `/blog/[slug]`  
+✅ **Contact Form** – With client-side validation (email/message)  
+✅ **Client-side Data Fetching** – From JSONPlaceholder API  
+✅ **Server-side Rendering** – Using `getServerSideProps`  
+✅ **API Route** – `/api/contact` accepting POST requests  
+✅ **Shared Layout & Navigation** – With `next/link` and persistent layout  
+✅ **Cart System** – Built with React Context API  
+✅ **Search Filter** – Real-time filtering on a list of items  
+✅ **Protected Route** – `/dashboard` with simple auth logic
 
-2. Install dependencies:
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
 
 ```bash
 npm install
+npm run dev
