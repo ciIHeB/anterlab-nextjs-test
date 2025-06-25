@@ -1,68 +1,28 @@
-# Practical Next.js Tasks
 
-A practical Next.js 13+ application demonstrating core features like static generation, dynamic routing, API routes, client/server rendering, and React Context state management.
-
----
-
-## 🚀 Getting Started
-
-1. **Clone the Repository**
-
-```bash
-git clone https://github.com/your-repo/practical-nextjs-tasks.git
-cd practical-nextjs-tasks
-Install Dependencies
-
-bash
-Copier le code
-npm install
-Start the Development Server
-
-bash
-Copier le code
-npm run dev
-Open in Browser
-Visit http://localhost:3000
-
-✅ Features Implemented
-Static Blog Page – Uses getStaticProps for static generation.
-
-Dynamic Routing – /blog/[slug] for individual blog posts.
-
-Contact Form – With client-side validation.
-
-Client-side Data Fetching – From JSONPlaceholder API.
-
-Server-side Rendering – With getServerSideProps or Server Components.
-
-API Route – /api/contact accepts POST requests.
-
-Navigation Bar – With next/link and shared layout.
-
-Cart System – Using React Context API.
-
-Search Filter – Real-time filtering of items.
-
-Protected Route – /dashboard with simple auth logic.
-
-🧪 How to Use
-Visit /blog to see all blog posts.
-
-Click on a title to view /blog/[slug].
-
-Use /contact to submit a form with validation.
-
-Test route protection by visiting /dashboard.
-
-Use the search bar to filter items live.
-
-Add/remove items to/from the cart and watch the updates.
-
-Send POST requests to /api/contact using Postman or similar tools.
-
-⚙️ Requirements
-Node.js 18+
-
-Modern browser
-
-⚠️ Note: Cart state resets on page reload.
+practical-nextjs-tasks
+Getting Started
+Clone or download the project.
+Run npm install.
+Start the dev server with npm run dev.
+Open (http://localhost:3000) in your browser.
+Features Completed
+Static blog page with 3 posts using static props.
+Dynamic routing for posts with [slug].
+Contact form with client-side validation.
+Client-side data fetching from JSONPlaceholder API.
+Server-side rendering with getServerSideProps or server components.
+API route /api/contact accepting POST requests.
+Navigation bar with next/link and shared layout.
+Cart system using React Context API.
+Real-time search filter on lists.
+Protected route /dashboard with simple auth logic.
+How to Use
+Visit /blog for blog posts and click titles to view each post.
+Use /contact to try the validated contact form.
+Add/remove items in the cart and see state updates live.
+Use the search bar on items/products pages for filtering.
+Access /dashboard to test route protection.
+Send POST requests to /api/contact via Postman or similar.
+Notes
+Requires Node.js 18+.
+Cart state resets on page reload.
